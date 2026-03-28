@@ -1,7 +1,6 @@
 # Ignore all data files
 *.nii.gz
 *.hdf5
-*.npy
 *.mat
 *.json
 
