@@ -1,14 +1,19 @@
-# FYP-Gokul
+# FYP-Gokul : Natural Scene Image Reconstruction from fMRI signals
 
 ## About
-This project explores the use of individualized brain masks for fMRI-to-image reconstruction, 
-building on the MindAligner model. The standard MindAligner uses a population-level visual ROI 
-mask (NSDGeneral) which is the same across all subjects. This project instead derives 
-subject-specific masks using the ICSC algorithm on resting-state fMRI data, which identifies 
-functional brain modules unique to each subject. Voxels are then selected from the visual 
-modules based on R² responsiveness scores, producing individualized masks that better reflect 
-each subject's brain organization. The goal is to evaluate whether individualized masks improve 
-reconstruction quality over the population-level baseline.
+Standard fMRI-to-image reconstruction models rely on population-level ROI masks that apply the 
+same spatial mask across all subjects, ignoring individual variability in brain functional 
+organization. This project derives subject-specific masks using the ICSC algorithm on 
+resting-state fMRI data to identify functional brain modules unique to each subject, with 
+voxels selected based on R2 responsiveness scores from GLMsingle. A novel smart voxel 
+reordering algorithm is also applied, aligning individualized voxels to match NSDGeneral 
+positional structure using HCP-MMP1 functional correspondence and spatial proximity, enabling 
+compatibility with MindAligner's frozen pretrained decoder.
+
+Experiments across 4 NSD subjects (1, 2, 5, 7) and 5 configurations showed that the 
+individualized reordered masks achieved competitive reconstruction quality against the 
+MindAligner baseline within a strict 1-hour training window, outperforming the MindBridge 
+and MindAligner models on low-level and high-level metrics for some subjects.
 
 **ICSC Algorithm:** https://github.com/SCSE-Biomedical-Computing-Group/ICSC  
 **MindAligner Model:** https://github.com/Da1yuqin/MindAligner
