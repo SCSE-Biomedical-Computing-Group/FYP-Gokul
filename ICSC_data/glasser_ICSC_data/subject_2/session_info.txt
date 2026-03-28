@@ -1,0 +1,8 @@
+Subject: 02
+Number of sessions: 10
+TRs per session: 125
+Total timepoints used: 1250
+Number of ROIs: 180
+Correlation matrix shape: [180, 180]
+Atlas: HCP_MMP1
+Files created: S01_corr.npy to S10_corr.npy

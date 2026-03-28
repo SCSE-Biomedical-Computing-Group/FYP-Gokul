@@ -1,0 +1,10 @@
+# Ignore all data files
+*.nii.gz
+*.hdf5
+*.npy
+*.mat
+*.json
+
+# Keep .gitkeep and .py files
+!**/.gitkeep
+!*.py

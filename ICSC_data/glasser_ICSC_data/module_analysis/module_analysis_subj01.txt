@@ -1,0 +1,401 @@
+ICSC Module Analysis - Subject 01
+======================================================================
+
+Total modules: 16
+Consensus cost: 0.5528
+Visual modules: [1, 7]
+
+Module 0: Non-visual
+  ROIs: 10, visual: 0 (0.0%)
+  Cortex types:
+      Lateral_Temporal: 3
+      Dorsolateral_Prefrontal: 2
+      Auditory_Association: 2
+      Inferior_Parietal: 2
+      Orbital_and_Polar_Frontal: 1
+  Lobes:
+    Temp: 5
+    Fr: 3
+    Par: 2
+  ROI names (first 10):
+    8BL_L
+    a10p_L
+    s6-8_L
+    STSvp_L
+    TE1a_L
+    TE1p_L
+    PFm_L
+    PGs_L
+    STSva_L
+    TE1m_L
+
+Module 1: VISUAL
+  ROIs: 12, visual: 11 (91.7%)
+  Cortex types:
+    * MT+_Complex_and_Neighboring_Visual_Areas: 8
+    * Dorsal_Stream_Visual: 3
+      Superior_Parietal: 1
+  Lobes:
+    Occ: 9
+    Par: 2
+    Temp: 1
+  Visual subsystems:
+    Dorsal_Stream_Visual: 3
+    MT+_Complex_and_Neighboring_Visual_Areas: 8
+  ROI names (first 10):
+    MST_L
+    V7_L
+    IPS1_L
+    V3B_L
+    LO1_L
+    MT_L
+    LIPv_L
+    PH_L
+    V4t_L
+    FST_L
+    ... and 2 more
+
+Module 2: Non-visual
+  ROIs: 13, visual: 0 (0.0%)
+  Cortex types:
+      Paracentral_Lobular_and_Mid_Cingulate: 4
+      Posterior_Opercular: 2
+      Early_Auditory: 2
+      Insular_and_Frontal_Opercular: 2
+      Anterior_Cingulate_and_Medial_Prefrontal: 1
+      Premotor: 1
+      Inferior_Parietal: 1
+  Lobes:
+    Fr: 6
+    Par: 5
+    Ins: 2
+  ROI names (first 10):
+    5mv_L
+    24dd_L
+    24dv_L
+    6mp_L
+    p24pr_L
+    6r_L
+    OP1_L
+    RI_L
+    PFcm_L
+    FOP1_L
+    ... and 3 more
+
+Module 3: Non-visual
+  ROIs: 15, visual: 0 (0.0%)
+  Cortex types:
+      Anterior_Cingulate_and_Medial_Prefrontal: 5
+      Posterior_Cingulate: 4
+      Dorsolateral_Prefrontal: 2
+      Orbital_and_Polar_Frontal: 2
+      Paracentral_Lobular_and_Mid_Cingulate: 1
+      Insular_and_Frontal_Opercular: 1
+  Lobes:
+    Fr: 9
+    Par: 4
+    Occ: 1
+    Ins: 1
+  ROI names (first 10):
+    RSC_L
+    POS2_L
+    23d_L
+    23c_L
+    a24_L
+    d32_L
+    p32_L
+    46_L
+    a9-46v_L
+    11l_L
+    ... and 5 more
+
+Module 4: Non-visual
+  ROIs: 5, visual: 0 (0.0%)
+  Cortex types:
+      Inferior_Frontal: 3
+      Dorsolateral_Prefrontal: 1
+      Inferior_Parietal: 1
+  Lobes:
+    Fr: 4
+    Par: 1
+  ROI names (first 10):
+    44_L
+    45_L
+    47l_L
+    9a_L
+    PF_L
+
+Module 5: Non-visual
+  ROIs: 11, visual: 0 (0.0%)
+  Cortex types:
+      Paracentral_Lobular_and_Mid_Cingulate: 2
+      Superior_Parietal: 2
+      Somatosensory_and_Motor: 2
+      Premotor: 1
+      Early_Auditory: 1
+      Auditory_Association: 1
+      Lateral_Temporal: 1
+      Medial_Temporal: 1
+  Lobes:
+    Par: 6
+    Temp: 4
+    Fr: 1
+  ROI names (first 10):
+    5m_L
+    5L_L
+    7AL_L
+    7PC_L
+    1_L
+    2_L
+    6d_L
+    52_L
+    TA2_L
+    TGd_L
+    ... and 1 more
+
+Module 6: Non-visual
+  ROIs: 10, visual: 0 (0.0%)
+  Cortex types:
+      Somatosensory_and_Motor: 3
+      Posterior_Opercular: 3
+      Insular_and_Frontal_Opercular: 3
+      Premotor: 1
+  Lobes:
+    Fr: 5
+    Par: 3
+    Ins: 2
+  ROI names (first 10):
+    4_L
+    3b_L
+    3a_L
+    6v_L
+    43_L
+    OP4_L
+    OP2-3_L
+    PoI2_L
+    FOP2_L
+    Ig_L
+
+Module 7: VISUAL
+  ROIs: 15, visual: 14 (93.3%)
+  Cortex types:
+    * Ventral_Stream_Visual: 6
+    * Dorsal_Stream_Visual: 3
+    * Early_Visual: 3
+    * Primary_Visual: 1
+    * MT+_Complex_and_Neighboring_Visual_Areas: 1
+      Posterior_Cingulate: 1
+  Lobes:
+    Occ: 12
+    Temp: 2
+    Par: 1
+  Visual subsystems:
+    Primary_Visual: 1
+    Early_Visual: 3
+    Dorsal_Stream_Visual: 3
+    Ventral_Stream_Visual: 6
+    MT+_Complex_and_Neighboring_Visual_Areas: 1
+  ROI names (first 10):
+    V1_L
+    V6_L
+    V2_L
+    V3_L
+    V4_L
+    V8_L
+    V3A_L
+    FFC_L
+    LO2_L
+    PIT_L
+    ... and 5 more
+
+Module 8: Non-visual
+  ROIs: 13, visual: 0 (0.0%)
+  Cortex types:
+      Superior_Parietal: 6
+      Premotor: 2
+      Inferior_Frontal: 2
+      Inferior_Parietal: 2
+      Dorsolateral_Prefrontal: 1
+  Lobes:
+    Par: 8
+    Fr: 5
+  ROI names (first 10):
+    FEF_L
+    7Am_L
+    7Pl_L
+    VIP_L
+    MIP_L
+    IFJa_L
+    IFJp_L
+    LIPd_L
+    6a_L
+    i6-8_L
+    ... and 3 more
+
+Module 9: Non-visual
+  ROIs: 13, visual: 0 (0.0%)
+  Cortex types:
+      Temporo-Parieto-Occipital_Junction: 4
+      Auditory_Association: 4
+      Temporo-Parieto_Occipital_Junction: 1
+      Posterior_Cingulate: 1
+      Superior_Parietal: 1
+      Dorsolateral_Prefrontal: 1
+      Lateral_Temporal: 1
+  Lobes:
+    Temp: 6
+    Par: 5
+    Fr: 1
+    Occ: 1
+  ROI names (first 10):
+    PSL_L
+    PCV_L
+    STV_L
+    7Pm_L
+    8Av_L
+    STGa_L
+    A5_L
+    STSda_L
+    STSdp_L
+    PHT_L
+    ... and 3 more
+
+Module 10: Non-visual
+  ROIs: 5, visual: 0 (0.0%)
+  Cortex types:
+      Early_Auditory: 4
+      Auditory_Association: 1
+  Lobes:
+    Temp: 5
+  ROI names (first 10):
+    A1_L
+    PBelt_L
+    MBelt_L
+    LBelt_L
+    A4_L
+
+Module 11: Non-visual
+  ROIs: 13, visual: 0 (0.0%)
+  Cortex types:
+      Orbital_and_Polar_Frontal: 4
+      Medial_Temporal: 3
+      Lateral_Temporal: 3
+      Insular_and_Frontal_Opercular: 2
+      Anterior_Cingulate_and_Medial_Prefrontal: 1
+  Lobes:
+    Temp: 8
+    Fr: 5
+  ROI names (first 10):
+    10d_L
+    13l_L
+    OFC_L
+    47s_L
+    Pir_L
+    EC_L
+    H_L
+    PeEc_L
+    TE2a_L
+    TE2p_L
+    ... and 3 more
+
+Module 12: Non-visual
+  ROIs: 11, visual: 0 (0.0%)
+  Cortex types:
+      Posterior_Cingulate: 5
+      Anterior_Cingulate_and_Medial_Prefrontal: 3
+      Orbital_and_Polar_Frontal: 1
+      Dorsolateral_Prefrontal: 1
+      Inferior_Parietal: 1
+  Lobes:
+    Par: 6
+    Fr: 5
+  ROI names (first 10):
+    7m_L
+    v23ab_L
+    d23ab_L
+    31pv_L
+    10r_L
+    47m_L
+    9m_L
+    9p_L
+    10v_L
+    PGi_L
+    ... and 1 more
+
+Module 13: Non-visual
+  ROIs: 11, visual: 0 (0.0%)
+  Cortex types:
+      Inferior_Frontal: 4
+      Dorsolateral_Prefrontal: 3
+      Anterior_Cingulate_and_Medial_Prefrontal: 1
+      Orbital_and_Polar_Frontal: 1
+      Insular_and_Frontal_Opercular: 1
+      Inferior_Parietal: 1
+  Lobes:
+    Fr: 10
+    Par: 1
+  ROI names (first 10):
+    8BM_L
+    8Ad_L
+    8C_L
+    a47r_L
+    IFSp_L
+    IFSa_L
+    p9-46v_L
+    10pp_L
+    AVI_L
+    IP1_L
+    ... and 1 more
+
+Module 14: Non-visual
+  ROIs: 12, visual: 0 (0.0%)
+  Cortex types:
+      Anterior_Cingulate_and_Medial_Prefrontal: 3
+      Insular_and_Frontal_Opercular: 3
+      Premotor: 2
+      Dorsolateral_Prefrontal: 2
+      Paracentral_Lobular_and_Mid_Cingulate: 2
+  Lobes:
+    Fr: 11
+    Ins: 1
+  ROI names (first 10):
+    PEF_L
+    55b_L
+    SFL_L
+    SCEF_L
+    6ma_L
+    33pr_L
+    a24pr_L
+    p32pr_L
+    9-46d_L
+    FOP4_L
+    ... and 2 more
+
+Module 15: Non-visual
+  ROIs: 11, visual: 1 (9.1%)
+  Cortex types:
+      Medial_Temporal: 4
+      Posterior_Cingulate: 2
+      Inferior_Parietal: 2
+      Anterior_Cingulate_and_Medial_Prefrontal: 2
+    * Ventral_Stream_Visual: 1
+  Lobes:
+    Temp: 4
+    Occ: 4
+    Fr: 2
+    Par: 1
+  Visual subsystems:
+    Ventral_Stream_Visual: 1
+  ROI names (first 10):
+    POS1_L
+    PreS_L
+    PHA1_L
+    PHA3_L
+    DVT_L
+    PGp_L
+    IP0_L
+    PHA2_L
+    VMV2_L
+    25_L
+    ... and 1 more
+
