@@ -15,7 +15,16 @@ reconstruction quality over the population-level baseline.
 
 ---
 
-## Pipeline
+# How to Run
+
+## 1.Install dependencies
+Clone the repo and run the following in the root directory:
+
+'''bash
+pip install -r requirements.text
+'''
+
+## 2.Order of Codes
 
 | Step | Script | Description |
 |------|--------|-------------|
@@ -31,3 +40,7 @@ reconstruction quality over the population-level baseline.
 | 10 | `create_individualized_data.py` | Select voxels from visual modules by R² score to create individualized masks and data |
 | 11 | `extract_individualized_masks.py` | Extract the boolean masks used to create the individualized data |
 | 12 | `individualized_mask_reorder.py` | Reorder individualized masks by functional correspondence and spatial proximity to align with NSDGeneral positions |
+
+## 3.Training, Reconstruction, Evaluation
+
+Training, reconstruction, and evaluation are performed using the MindAligner codebase at https://github.com/Da1yuqin/MindAligner. Refer to their instructions for using their model.
