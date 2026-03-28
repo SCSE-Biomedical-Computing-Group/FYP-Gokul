@@ -25,9 +25,10 @@ and MindAligner models on low-level and high-level metrics for some subjects.
 ## 1.Install dependencies
 Clone the repo and run the following in the root directory:
 
-'
-pip install -r requirements.text
-'
+```bash
+pip install -r requirements.txt
+```
+
 
 ## 2.Order of Codes
 
