@@ -1,7 +1,7 @@
 """
 
 Parcellate resting state fMRI data to ROIs using HCP_MMP1 atlas.
-Reduces voxel-level time series to ROI-level time series for ICSC algorithm.
+Reduces voxel-level data to ROI-level for running ICSC algorithm.
 
 Input:
     - resting_state_subj0X_all.hdf5: [timepoints, num_voxels]
