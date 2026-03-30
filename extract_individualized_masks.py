@@ -25,10 +25,10 @@ def extract_mask_from_hdf5(subject_id, individualized_hdf5_path, brain_mask_path
     print(f"  {len(selected_voxel_indices):,} selected voxels, "
           f"index range [{selected_voxel_indices.min()}, {selected_voxel_indices.max()}]")
 
-    # initialize mask with 0/False
+    # initialize mask with 0 a.k.a False
     individualized_mask = np.zeros(num_brain_voxels, dtype=bool)
 
-    # set selected voxels to 1/True
+    # set selected voxels to 1 a.k.a True
     individualized_mask[selected_voxel_indices] = True
 
     # check
