@@ -5,7 +5,7 @@ existing task-data brain mask, then saves to HDF5.
 
 Usage:
     python process_resting_state.py --subject 1
-    python process_resting_state.py --subject 1 --brain_masks_dir G:\\path\\processed\\brain_masks
+    python process_resting_state.py --subject 1 --brain_masks_dir \\path\\processed\\brain_masks
 """
 
 import argparse
