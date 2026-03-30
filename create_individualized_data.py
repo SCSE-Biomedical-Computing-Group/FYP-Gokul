@@ -56,15 +56,6 @@ def rank_by_mean_abs_beta(task_betas, visual_voxel_mask):
     return ranked[visual_voxel_mask[ranked]]
 
 
-def rank_by_combined(r2_values, task_betas, visual_voxel_mask):
-    variance = np.var(task_betas, axis=0)
-    r2_norm = (r2_values - r2_values.min()) / (r2_values.max() - r2_values.min() + 1e-10)
-    var_norm = (variance - variance.min()) / (variance.max() - variance.min() + 1e-10)
-    scores = r2_norm * var_norm
-    scores[~visual_voxel_mask] = -np.inf
-    ranked = np.argsort(scores)[::-1]
-    return ranked[visual_voxel_mask[ranked]]
-
 
 # processing functions
 
