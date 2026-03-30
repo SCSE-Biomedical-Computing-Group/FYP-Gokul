@@ -37,7 +37,7 @@ def load_icsc_results(results_path):
         num_adjusted = int(row[3])
         num_modules = int(row[4])
         
-        # extract module labels for all ROIs (starts after the first 4 columns)
+        # extract module labels for all rois (starts after the first 4 columns)
         module_labels = row.iloc[5:].values.astype(int)
         
         parsed_results[run_id] = {
