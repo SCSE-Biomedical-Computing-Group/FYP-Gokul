@@ -93,8 +93,6 @@ def select_top_voxels(ranking_method, visual_voxel_mask, r2_values, task_betas, 
         ranked = rank_by_variance(task_betas, visual_voxel_mask)
     elif ranking_method == 'mean_abs':
         ranked = rank_by_mean_abs_beta(task_betas, visual_voxel_mask)
-    elif ranking_method == 'combined':
-        ranked = rank_by_combined(r2_values, task_betas, visual_voxel_mask)
     else:
         raise ValueError(f"Unknown ranking method: {ranking_method}")
 
