@@ -128,7 +128,7 @@ def main():
     parser.add_argument('--resting_dir', type=str, default=r'\path\resting_processed')
     parser.add_argument('--atlas_dir', type=str, default=r'\path\atlas')
     parser.add_argument('--brain_masks_dir', type=str, default=r'\path\processed\brain_masks')
-    parser.add_argument('--output_dir', type=str, default=r'G:\path\resting_parcellated_glasser')
+    parser.add_argument('--output_dir', type=str, default=r'\path\resting_parcellated_glasser')
     args = parser.parse_args()
 
     subj_str = f"subj{args.subject:02d}"
