@@ -48,7 +48,7 @@ def extract_mask_from_hdf5(subject_id, individualized_hdf5_path, brain_mask_path
 def main():
     parser = argparse.ArgumentParser(description="Extract boolean masks from individualized HDF5 files")
     parser.add_argument('--ranking_method', type=str, default='r2',
-                        choices=['r2', 'variance', 'mean_abs', 'combined'])
+                        choices=['r2', 'variance', 'mean_abs'])
     parser.add_argument('--individualized_dir', type=str,
                         default=r'\path\individualized_masks\Glasser')
     parser.add_argument('--brain_masks_dir', type=str,
