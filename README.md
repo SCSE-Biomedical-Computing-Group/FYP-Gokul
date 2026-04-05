@@ -48,6 +48,26 @@ pip install -r requirements.txt
 | 12 | `individualized_mask_reorder.py` | Reorder individualized masks by functional correspondence and spatial proximity to align with NSDGeneral positions |
 | 13 | `visualize_mask_comparison.py` | Makes the visualisations for comparison between the masks |
 
+
 ## 3. Training, Reconstruction, Evaluation
 
 Training, reconstruction, and evaluation are performed using the MindAligner codebase at https://github.com/Da1yuqin/MindAligner. Refer to their instructions for using their model.
+
+
+## Pipeline Overview
+![Pipeline Overview](misc/Flowchart.png)
+
+
+## Results
+The table below shows the final reconstruction results for the best individualized configuration 
+(Reordered + Retrained) compared against the MindAligner baseline and the Unordered + Retrained 
+configuration, evaluated across 8 metrics spanning low-level pixel similarity to high-level 
+semantic content. **Bold** values indicate metrics where the individualized configuration 
+outperformed the MindAligner baseline.
+
+![Results Table](misc/final_results_table.png)
+
+Subjects 1 and 2 matched or exceeded the MindAligner baseline on multiple high-level metrics 
+(Alex(5), Incep, CLIP, Eff) despite being trained for only 1 hour. Subject 7 underperformed 
+across all configurations, suggesting inherent variability in that subject's fMRI responses. 
+Full experimental results and analysis are available in the project report.
