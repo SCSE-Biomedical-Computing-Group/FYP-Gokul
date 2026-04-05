@@ -46,6 +46,7 @@ pip install -r requirements.txt
 | 10 | `create_individualized_data.py` | Select voxels from visual modules by R² score to create individualized masks and data |
 | 11 | `extract_individualized_masks.py` | Extract the boolean masks used to create the individualized data |
 | 12 | `individualized_mask_reorder.py` | Reorder individualized masks by functional correspondence and spatial proximity to align with NSDGeneral positions |
+| 13 | `visualize_mask_comparison.py` | Makes the visualisations for comparison between the masks |
 
 ## 3. Training, Reconstruction, Evaluation
 

@@ -1,7 +1,7 @@
 """
 
 Parcellate resting state fMRI data to ROIs using HCP_MMP1 atlas.
-Reduces voxel-level time series to ROI-level time series for ICSC algorithm.
+Reduces voxel-level data to ROI-level for running ICSC algorithm.
 
 Input:
     - resting_state_subj0X_all.hdf5: [timepoints, num_voxels]
@@ -128,7 +128,7 @@ def main():
     parser.add_argument('--resting_dir', type=str, default=r'\path\resting_processed')
     parser.add_argument('--atlas_dir', type=str, default=r'\path\atlas')
     parser.add_argument('--brain_masks_dir', type=str, default=r'\path\processed\brain_masks')
-    parser.add_argument('--output_dir', type=str, default=r'G:\path\resting_parcellated_glasser')
+    parser.add_argument('--output_dir', type=str, default=r'\path\resting_parcellated_glasser')
     args = parser.parse_args()
 
     subj_str = f"subj{args.subject:02d}"

@@ -25,10 +25,10 @@ def extract_mask_from_hdf5(subject_id, individualized_hdf5_path, brain_mask_path
     print(f"  {len(selected_voxel_indices):,} selected voxels, "
           f"index range [{selected_voxel_indices.min()}, {selected_voxel_indices.max()}]")
 
-    # initialize mask with 0/False
+    # initialize mask with 0 a.k.a False
     individualized_mask = np.zeros(num_brain_voxels, dtype=bool)
 
-    # set selected voxels to 1/True
+    # set selected voxels to 1 a.k.a True
     individualized_mask[selected_voxel_indices] = True
 
     # check
@@ -48,7 +48,7 @@ def extract_mask_from_hdf5(subject_id, individualized_hdf5_path, brain_mask_path
 def main():
     parser = argparse.ArgumentParser(description="Extract boolean masks from individualized HDF5 files")
     parser.add_argument('--ranking_method', type=str, default='r2',
-                        choices=['r2', 'variance', 'mean_abs', 'combined'])
+                        choices=['r2', 'variance', 'mean_abs'])
     parser.add_argument('--individualized_dir', type=str,
                         default=r'\path\individualized_masks\Glasser')
     parser.add_argument('--brain_masks_dir', type=str,

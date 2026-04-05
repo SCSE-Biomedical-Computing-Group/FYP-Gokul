@@ -169,7 +169,7 @@ def main():
     print(f"NSDGeneral voxels: {nsdgeneral_3d.sum()}")
 
     individualized_1d = np.load(individualized_mask_path)
-    ref_nifti = nib.load(rf"G:\NSDdata\raw_nsd\subj0{subject}\betas_session01.nii.gz")
+    ref_nifti = nib.load(rf"\path\raw_nsd\subj0{subject}\betas_session01.nii.gz")
     brain_mask = np.any(ref_nifti.get_fdata() != 0, axis=-1)
     individualized_3d = np.zeros(ref_nifti.shape[:3], dtype=bool)
     individualized_3d[brain_mask] = individualized_1d
